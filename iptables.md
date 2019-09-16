@@ -133,11 +133,11 @@ Note: The --dport option must accompany a particular protocol, for example, -p t
 
 
 
-Saving Iptables Configurations
+# Saving Iptables Configurations
 
 All modifications must be saved to the iptables configuration file, /etc/sysconfig/iptables, because this is the file used at system boot to load the firewall.
 
- iptables-save > /etc/sysconfig/iptables
+    iptables-save > /etc/sysconfig/iptables
 
 You can also remove all the modifications for the current netfilter/iptables firewall by using the flush option, iptables -F. After this is completed, all the rules (but not the policies) are removed.
 
