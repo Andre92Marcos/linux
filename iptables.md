@@ -1,6 +1,6 @@
 iptables is a command-line firewall utility that uses policy chains to allow or block traffic. 
 
-#Tables
+# Tables
 
 The iptables firewall has the ability to do more than just low-level packet filtering. It defines what type of firewall functionality is taking place. There are four tables in the iptables utility. The tables offer the following functionalities:
 	
@@ -15,7 +15,7 @@ raw—The raw table is used to exempt certain network packets from something cal
 Of all the tables listed, three focus on Network Address Translation. Therefore, the filter table is the primary table to focus on for basic firewall packet filtering.
 
 
-#Chains
+# Chains
 
 The netfilter/iptables firewall categorizes network packets into categories, called chains. There are five chains (categories) that a network packet can be designated as, as follows:
 
@@ -30,7 +30,7 @@ Which netfilter/iptables table you choose to work with determine what chains are
 After a network packet is categorized into a specific chain, iptables can determine what policies or rules apply to that particular packet.
 
 
-#Rules, Policies and Targets
+# Rules, Policies and Targets
 
 For each network packet, a rule can be set up defining what to do with that individual packet. Network packets can be identified many ways by the netfilter/iptables firewall. These are a few of the ways:
 
@@ -52,7 +52,7 @@ While REJECT gives a rejection message, DROP is quiet. You may consider using RE
 Note: There are a couple of additional more sophisticated targets for iptables, such as QUEUE. You can find out more about these targets via the man iptables command.
 
 
-#Iptables Options
+# Iptables Options
 
 
 -t table 
