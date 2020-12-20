@@ -6,4 +6,13 @@ Most Linux distributions have now switched to systemd. This daemon is an Init pr
 
 All processes have an assigned PID that can be viewed under /proc/ with the corresponding number. Such a process can have a parent process ID (PPID), known as the child process.
 
+## Process
+
+A process can be in the following states:
+
+	Running
+	Waiting (waiting for an event or system resource)
+	Stopped
+	Zombie (stopped but still has an entry in the process table).
+
 
