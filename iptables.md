@@ -4,7 +4,7 @@ iptables is a command-line firewall utility that uses policy chains to allow or 
 
 The iptables firewall has the ability to do more than just low-level packet filtering. It defines what type of firewall functionality is taking place. There are four tables in the iptables utility. The tables offer the following functionalities:
 	
-	filter—The filter table is the packet filtering feature of the firewall. In this table, access control decisions are made for packets traveling to, from, and through your Linux system.
+filter—The filter table is the packet filtering feature of the firewall. In this table, access control decisions are made for packets traveling to, from, and through your Linux system.
 
 nat—The nat table is used for Network Address Translation (NAT). Firewalls can be set up for NAT, which is a different security feature than packet filtering.
 
